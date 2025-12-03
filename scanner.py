@@ -16,19 +16,18 @@ def cargar_diccionario(ruta):
 # Analizador Léxico
 # -------------------------------
 
-# Regex de identificadores
 REGEX_IDENT = re.compile(r"^[a-zA-Z][a-zA-Z0-9_]*$")
 
 def analizar_palabra(palabra, dicc):
-    # Paso A: es palabra clave?
+    # A: palabra reservada
     if palabra in dicc:
         return dicc[palabra], palabra
 
-    # Paso B: es identificador válido?
+    # B: identificador válido
     if REGEX_IDENT.match(palabra):
         return "IDENTIFICADOR", palabra
 
-    # Paso C: error lexicográfico
+    # C: error léxico
     return "ERROR_LEXICO", palabra
 
 
@@ -50,5 +49,5 @@ def main():
             out.write(f"{token},{lex}\n")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
