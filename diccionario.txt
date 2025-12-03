@@ -1,0 +1,8 @@
+KW_SI si
+KW_SINO sino
+KW_MIENTRAS mientras
+KW_REPITE repite
+KW_HASTA hasta
+KW_INICIO inicio
+KW_FIN fin
+KW_IMPRIMIR imprimir
