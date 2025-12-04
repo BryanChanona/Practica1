@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 
 # Regex para identificador: solo minúsculas, sin guion bajo
-REGEX_IDENT_PATTERN = r'^[a-z][a-z0-9]*$'
+REGEX_IDENT_PATTERN = r'^[a-z](?:[a-z0-9]{1,}|[a-z0-9]{0,})$'
 REGEX_IDENT = re.compile(REGEX_IDENT_PATTERN)
 
 # Paths por defecto (carpeta del proyecto Practica1)
