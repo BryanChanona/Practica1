@@ -6,5 +6,5 @@ hasta
 inicio
 fin
 imprimir
-contador
-saludo
+HOLAcarlos
+HOLAjared
