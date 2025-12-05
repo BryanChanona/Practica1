@@ -1,0 +1,10 @@
+si
+sino
+mientras
+repite
+hasta
+inicio
+fin
+imprimir
+HOLAcarlos
+HOLAjared

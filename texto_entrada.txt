@@ -3,3 +3,5 @@ Si SINO siNo imprimir2 _privado 123abc variable1 var_2 fin
 inicio_mal inicio fin!
 mientras123 while imprimir imprimir fin
 repite hasta repite hasta
+cuado estamos en el camino correcto somos buenos amigos y vamos jtos a todos lados siempre
+holaaA como esta ella
